@@ -65,7 +65,7 @@ Hytale была анонсирована в 2018 году и с тех пор д
 
 1. **Установка инсталлера**:
    ```
-   Перейдите в Release. [тут](https://github.com/OneClickLaboratory/HytaleCountdown/releases/tag/Hytale)
+   Перейдите в Release. тут: https://github.com/OneClickLaboratory/HytaleCountdown/releases/tag/Hytale
    ```
 
 2. **Скачивание инсталлера**:

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hytale Countdown</title>
+    <script type="module" crossorigin src="/assets/index-b6IccG1k.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D1xTu2So.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="inner">
+        <div class="logo">
+          <img src="https://hytale.com/static/images/logo.png" alt="Hytale Logo" />
+        </div>
+
+        <div id="countdown-app" class="content">
+          <div class="heading">
+            <span class="decoration left"></span>
+            <h1>HYPE IS REAL</h1>
+            <span class="decoration right"></span>
+          </div>
+
+          <div class="countdown-wrapper">
+            <div class="countdown">
+              <div class="block">
+                <div class="digits" id="days">00</div>
+                <div class="label">Days</div>
+              </div>
+              <div class="block">
+                <div class="digits" id="hours">00</div>
+                <div class="label">Hours</div>
+              </div>
+              <div class="block">
+                <div class="digits" id="minutes">00</div>
+                <div class="label">Minutes</div>
+              </div>
+              <div class="block">
+                <div class="digits" id="seconds">00</div>
+                <div class="label">Seconds</div>
+              </div>
+            </div>
+          </div>
+
+          <button id="support-btn" class="support-button">Support Hytale</button>
+        </div>
+
+        <div id="support-modal" class="modal" style="display: none;">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Support Hytale</h2>
+            <p>Share your wishes and suggestions for Hytale:</p>
+            <textarea id="wishes-text" placeholder="Enter your wishes here..."></textarea>
+            <button id="submit-wishes">Submit</button>
+          </div>
+        </div>
+
+        <div id="airplane-animation" class="dragon-container" style="display: none;">
+          <div class="magical-dragon">
+            <div class="dragon-body"></div>
+            <div class="dragon-head"></div>
+            <div class="dragon-wing-left"></div>
+            <div class="dragon-wing-right"></div>
+            <div class="dragon-tail"></div>
+            <div class="dragon-message"></div>
+          </div>
+          <div class="magic-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
